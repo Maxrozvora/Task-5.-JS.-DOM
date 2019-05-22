@@ -349,4 +349,36 @@ function renderTable(data) {
 
 renderTable(data)
 
-sortBy
+document.getElementById("thead").addEventListener("click", function(e) {
+// e.target is the clicked element!
+// If it was a list item
+    if(e.target && e.target.classList[0] == 'text') {
+        // List item found!  Output the ID!
+       console.log(e.target); // TODO console.log
+       const sortColumn = e.target.dataset.column
+        const sortOrder = e.target.dataset.order === 'asc' ? -1 : 1;
+        toggleSortOrder(e)
+        const byName = sortByName(data, sortColumn ,sortOrder);
+        renderTable(byName)
+    }
+});
+
+function toggleSortOrder(e) {
+    e.target.dataset.order = (e.target.dataset.order === 'asc') ? 'desc' : 'asc';
+}
+
+function sortByName(data, sortColumn ,sortOrder) {
+    data.sort((a,b) => {
+        if (a[sortColumn] > b[sortColumn]) {
+            console.log(a[sortColumn]); // TODO console.log
+            return 1 * sortOrder;
+        }
+        if (a[sortColumn] < b[sortColumn]) {
+            console.log(a[sortColumn]); // TODO console.log
+            return -1 * sortOrder;
+        }
+        return 0;
+    })
+
+    return data
+}
