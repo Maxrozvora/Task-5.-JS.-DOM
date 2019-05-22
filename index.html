@@ -16,7 +16,18 @@
             <h1>Розклад поїздів</h1>
         </div>
         <div class="col-12">
-            <table class="table-striped table">
+            <form id="search">
+                <div class="form-group">
+                    <label for="input">Search</label>
+                    <input type="text" id="input" class="form-control" placeholder="search">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-12">
+            <table id="table" class="table-striped table">
                 <thead id="thead">
                 <tr>
                     <th class="text" data-order="asc" data-column="number">Номер потягу</th>
