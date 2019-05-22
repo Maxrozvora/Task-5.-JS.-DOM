@@ -1,323 +1,323 @@
 const data = [
     {
-        "from": "Львів",
-        "to": "Дніпро",
-        "number": "940Z",
-        "day": "Субота",
-        "departure": {
-            "left": 1558800177779,
-            "day": "Субота",
-            "time": "19 : 02"
-        },
-        "arrive": {
-            "day": "Субота",
-            "time": "20 : 53"
-        },
-        "cost": "74.54"
-    },
-    {
-        "from": "Дніпро",
-        "to": "Львів",
-        "number": "317M",
-        "day": "Понеділок",
-        "departure": {
-            "left": 1558939209609,
-            "day": "Понеділок",
-            "time": "09 : 40"
-        },
-        "arrive": {
-            "day": "Понеділок",
-            "time": "11 : 36"
-        },
-        "cost": "78.16"
-    },
-    {
-        "from": "Київ",
+        "from": "Одеса",
         "to": "Харків",
-        "number": "818Z",
-        "day": "Середа",
+        "number": "406X",
+        "day": "Неділя",
         "departure": {
-            "left": 1559133292762,
-            "day": "Середа",
-            "time": "15 : 34"
-        },
-        "arrive": {
-            "day": "Середа",
-            "time": "17 : 46"
-        },
-        "cost": "88.46"
-    },
-    {
-        "from": "Київ",
-        "to": "Львів",
-        "number": "560R",
-        "day": "Субота",
-        "departure": {
-            "left": 1558814775271,
-            "day": "Субота",
-            "time": "23 : 06"
+            "left": 1558834892028,
+            "day": "Неділя",
+            "time": "04 : 41"
         },
         "arrive": {
             "day": "Неділя",
-            "time": "01 : 11"
+            "time": "08 : 42"
         },
-        "cost": "83.86"
-    },
-    {
-        "from": "Харків",
-        "to": "Київ",
-        "number": "133Z",
-        "day": "Середа",
-        "departure": {
-            "left": 1558554134460,
-            "day": "Сьгодні",
-            "time": "22 : 42"
-        },
-        "arrive": {
-            "day": "Завтра",
-            "time": "00 : 23"
-        },
-        "cost": "68.22"
-    },
-    {
-        "from": "Львів",
-        "to": "Харків",
-        "number": "267X",
-        "day": "Четвер",
-        "departure": {
-            "left": 1558607116149,
-            "day": "Завтра",
-            "time": "13 : 25"
-        },
-        "arrive": {
-            "day": "Завтра",
-            "time": "16 : 13"
-        },
-        "cost": "112.85"
-    },
-    {
-        "from": "Одеса",
-        "to": "Харків",
-        "number": "732I",
-        "day": "Середа",
-        "departure": {
-            "left": 1559122026391,
-            "day": "Середа",
-            "time": "12 : 27"
-        },
-        "arrive": {
-            "day": "Середа",
-            "time": "15 : 40"
-        },
-        "cost": "129.25"
-    },
-    {
-        "from": "Львів",
-        "to": "Одеса",
-        "number": "176A",
-        "day": "Вівторок",
-        "departure": {
-            "left": 1559022664732,
-            "day": "Вівторок",
-            "time": "08 : 51"
-        },
-        "arrive": {
-            "day": "Вівторок",
-            "time": "12 : 23"
-        },
-        "cost": "142.48"
-    },
-    {
-        "from": "Харків",
-        "to": "Одеса",
-        "number": "546P",
-        "day": "Четвер",
-        "departure": {
-            "left": 1558639603320,
-            "day": "Завтра",
-            "time": "22 : 26"
-        },
-        "arrive": {
-            "day": "П'ятниця",
-            "time": "02 : 07"
-        },
-        "cost": "148.29"
-    },
-    {
-        "from": "Одеса",
-        "to": "Дніпро",
-        "number": "156V",
-        "day": "Субота",
-        "departure": {
-            "left": 1558794173835,
-            "day": "Субота",
-            "time": "17 : 22"
-        },
-        "arrive": {
-            "day": "Субота",
-            "time": "20 : 25"
-        },
-        "cost": "122.72"
-    },
-    {
-        "from": "Дніпро",
-        "to": "Одеса",
-        "number": "710W",
-        "day": "П'ятниця",
-        "departure": {
-            "left": 1558712925129,
-            "day": "П'ятниця",
-            "time": "18 : 48"
-        },
-        "arrive": {
-            "day": "П'ятниця",
-            "time": "21 : 04"
-        },
-        "cost": "91.48"
+        "cost": "161.93"
     },
     {
         "from": "Київ",
-        "to": "Дніпро",
-        "number": "626T",
-        "day": "Вівторок",
-        "departure": {
-            "left": 1558997200260,
-            "day": "Вівторок",
-            "time": "01 : 46"
-        },
-        "arrive": {
-            "day": "Вівторок",
-            "time": "05 : 12"
-        },
-        "cost": "138.12"
-    },
-    {
-        "from": "Дніпро",
-        "to": "Харків",
-        "number": "573O",
-        "day": "П'ятниця",
-        "departure": {
-            "left": 1558696557724,
-            "day": "П'ятниця",
-            "time": "14 : 15"
-        },
-        "arrive": {
-            "day": "П'ятниця",
-            "time": "19 : 08"
-        },
-        "cost": "196.35"
-    },
-    {
-        "from": "Одеса",
-        "to": "Київ",
-        "number": "982U",
-        "day": "Вівторок",
-        "departure": {
-            "left": 1559056625992,
-            "day": "Вівторок",
-            "time": "18 : 17"
-        },
-        "arrive": {
-            "day": "Вівторок",
-            "time": "21 : 57"
-        },
-        "cost": "147.26"
-    },
-    {
-        "from": "Харків",
         "to": "Львів",
-        "number": "821A",
-        "day": "Субота",
+        "number": "725K",
+        "day": "Четвер",
         "departure": {
-            "left": 1558800314270,
-            "day": "Субота",
-            "time": "19 : 05"
+            "left": 1558574059826,
+            "day": "Четвер",
+            "time": "04 : 14"
         },
         "arrive": {
-            "day": "Субота",
-            "time": "21 : 58"
+            "day": "Четвер",
+            "time": "06 : 41"
         },
-        "cost": "116.11"
+        "cost": "98.65"
     },
     {
-        "from": "Київ",
-        "to": "Одеса",
-        "number": "379K",
-        "day": "Вівторок",
+        "from": "Харків",
+        "to": "Київ",
+        "number": "413B",
+        "day": "П'ятниця",
         "departure": {
-            "left": 1559019510480,
-            "day": "Вівторок",
-            "time": "07 : 58"
+            "left": 1558667154778,
+            "day": "П'ятниця",
+            "time": "06 : 05"
         },
         "arrive": {
-            "day": "Вівторок",
-            "time": "10 : 33"
+            "day": "П'ятниця",
+            "time": "08 : 14"
         },
-        "cost": "104.10"
+        "cost": "86.56"
+    },
+    {
+        "from": "Харків",
+        "to": "Дніпро",
+        "number": "144R",
+        "day": "Субота",
+        "departure": {
+            "left": 1558733529476,
+            "day": "Субота",
+            "time": "00 : 32"
+        },
+        "arrive": {
+            "day": "Субота",
+            "time": "05 : 08"
+        },
+        "cost": "185.06"
+    },
+    {
+        "from": "Дніпро",
+        "to": "Київ",
+        "number": "698G",
+        "day": "Четвер",
+        "departure": {
+            "left": 1558628017688,
+            "day": "Четвер",
+            "time": "19 : 13"
+        },
+        "arrive": {
+            "day": "Четвер",
+            "time": "23 : 01"
+        },
+        "cost": "153.13"
     },
     {
         "from": "Львів",
-        "to": "Київ",
-        "number": "800E",
+        "to": "Харків",
+        "number": "611S",
+        "day": "Четвер",
+        "departure": {
+            "left": 1558640776625,
+            "day": "Четвер",
+            "time": "22 : 46"
+        },
+        "arrive": {
+            "day": "П'ятниця",
+            "time": "02 : 31"
+        },
+        "cost": "150.94"
+    },
+    {
+        "from": "Львів",
+        "to": "Одеса",
+        "number": "708W",
+        "day": "Четвер",
+        "departure": {
+            "left": 1558596470469,
+            "day": "Четвер",
+            "time": "10 : 27"
+        },
+        "arrive": {
+            "day": "Четвер",
+            "time": "14 : 18"
+        },
+        "cost": "154.81"
+    },
+    {
+        "from": "Львів",
+        "to": "Дніпро",
+        "number": "750N",
         "day": "Вівторок",
         "departure": {
-            "left": 1558998433617,
+            "left": 1559034797229,
             "day": "Вівторок",
-            "time": "02 : 07"
+            "time": "12 : 13"
         },
         "arrive": {
             "day": "Вівторок",
-            "time": "04 : 37"
+            "time": "14 : 33"
+        },
+        "cost": "93.61"
+    },
+    {
+        "from": "Одеса",
+        "to": "Дніпро",
+        "number": "350L",
+        "day": "Субота",
+        "departure": {
+            "left": 1558741878122,
+            "day": "Субота",
+            "time": "02 : 51"
+        },
+        "arrive": {
+            "day": "Субота",
+            "time": "05 : 34"
+        },
+        "cost": "109.38"
+    },
+    {
+        "from": "Одеса",
+        "to": "Київ",
+        "number": "236Z",
+        "day": "Середа",
+        "departure": {
+            "left": 1559142617555,
+            "day": "Середа",
+            "time": "18 : 10"
+        },
+        "arrive": {
+            "day": "Середа",
+            "time": "21 : 10"
+        },
+        "cost": "120.75"
+    },
+    {
+        "from": "Одеса",
+        "to": "Львів",
+        "number": "791U",
+        "day": "Середа",
+        "departure": {
+            "left": 1559099187903,
+            "day": "Середа",
+            "time": "06 : 06"
+        },
+        "arrive": {
+            "day": "Середа",
+            "time": "09 : 28"
+        },
+        "cost": "135.30"
+    },
+    {
+        "from": "Дніпро",
+        "to": "Харків",
+        "number": "139Y",
+        "day": "Понеділок",
+        "departure": {
+            "left": 1558962601074,
+            "day": "Понеділок",
+            "time": "16 : 10"
+        },
+        "arrive": {
+            "day": "Понеділок",
+            "time": "21 : 10"
+        },
+        "cost": "201.25"
+    },
+    {
+        "from": "Дніпро",
+        "to": "Одеса",
+        "number": "813D",
+        "day": "Неділя",
+        "departure": {
+            "left": 1558903300620,
+            "day": "Неділя",
+            "time": "23 : 41"
+        },
+        "arrive": {
+            "day": "Понеділок",
+            "time": "02 : 11"
         },
         "cost": "100.63"
     },
     {
-        "from": "Одеса",
-        "to": "Львів",
-        "number": "692R",
-        "day": "П'ятниця",
+        "from": "Київ",
+        "to": "Одеса",
+        "number": "772O",
+        "day": "Середа",
         "departure": {
-            "left": 1558655816090,
-            "day": "П'ятниця",
-            "time": "02 : 56"
+            "left": 1559096403903,
+            "day": "Середа",
+            "time": "05 : 20"
         },
         "arrive": {
-            "day": "П'ятниця",
-            "time": "06 : 58"
+            "day": "Середа",
+            "time": "08 : 54"
         },
-        "cost": "162.63"
+        "cost": "143.75"
     },
     {
-        "from": "Дніпро",
+        "from": "Львів",
         "to": "Київ",
-        "number": "976K",
-        "day": "Вівторок",
+        "number": "199W",
+        "day": "Четвер",
         "departure": {
-            "left": 1559001995244,
-            "day": "Вівторок",
-            "time": "03 : 06"
+            "left": 1558639626053,
+            "day": "Четвер",
+            "time": "22 : 27"
         },
         "arrive": {
-            "day": "Вівторок",
-            "time": "06 : 05"
+            "day": "П'ятниця",
+            "time": "01 : 30"
         },
-        "cost": "120.41"
+        "cost": "122.72"
     },
     {
         "from": "Харків",
-        "to": "Дніпро",
-        "number": "301G",
+        "to": "Львів",
+        "number": "307B",
         "day": "Четвер",
         "departure": {
-            "left": 1558597673187,
-            "day": "Завтра",
-            "time": "10 : 47"
+            "left": 1558611697955,
+            "day": "Четвер",
+            "time": "14 : 41"
         },
         "arrive": {
-            "day": "Завтра",
-            "time": "15 : 05"
+            "day": "Четвер",
+            "time": "17 : 43"
         },
-        "cost": "173.12"
+        "cost": "121.97"
+    },
+    {
+        "from": "Київ",
+        "to": "Харків",
+        "number": "626L",
+        "day": "Вівторок",
+        "departure": {
+            "left": 1558993923560,
+            "day": "Вівторок",
+            "time": "00 : 52"
+        },
+        "arrive": {
+            "day": "Вівторок",
+            "time": "02 : 45"
+        },
+        "cost": "75.95"
+    },
+    {
+        "from": "Київ",
+        "to": "Дніпро",
+        "number": "967W",
+        "day": "Понеділок",
+        "departure": {
+            "left": 1558947702730,
+            "day": "Понеділок",
+            "time": "12 : 01"
+        },
+        "arrive": {
+            "day": "Понеділок",
+            "time": "15 : 09"
+        },
+        "cost": "125.78"
+    },
+    {
+        "from": "Харків",
+        "to": "Одеса",
+        "number": "133H",
+        "day": "Вівторок",
+        "departure": {
+            "left": 1559010241931,
+            "day": "Вівторок",
+            "time": "05 : 24"
+        },
+        "arrive": {
+            "day": "Вівторок",
+            "time": "08 : 42"
+        },
+        "cost": "132.90"
+    },
+    {
+        "from": "Дніпро",
+        "to": "Львів",
+        "number": "446R",
+        "day": "П'ятниця",
+        "departure": {
+            "left": 1558724088062,
+            "day": "П'ятниця",
+            "time": "21 : 54"
+        },
+        "arrive": {
+            "day": "П'ятниця",
+            "time": "23 : 35"
+        },
+        "cost": "67.65"
     }
 ]
 
@@ -363,12 +363,13 @@ document.getElementById("thead").addEventListener("click", function (e) {
         renderTable(byName)
     } else if (e.target && e.target.classList[0] == 'number') {
         // List item found!  Output the ID!
-        console.log(e.target); // TODO console.log
         const sortColumn = e.target.dataset.column
         const sortOrder = e.target.dataset.order === 'asc' ? -1 : 1;
         toggleSortOrder(e)
         const byNumber = sortByNumber(data, sortColumn, sortOrder);
         renderTable(byNumber)
+    } else if (e.target && e.target.classList[0] == 'date') {
+
     }
 });
 
@@ -390,8 +391,15 @@ function sortByName(data, sortColumn, sortOrder) {
 
 function sortByNumber(data, sortColumn, sortOrder) {
     return data.sort((a, b) => {
-        console.log(a); // TODO console.log
         return (a[sortColumn] - b[sortColumn]) * sortOrder
     })
 
+}
+
+function sortByDate(data, date, sortOrder) {
+    return date.sort((a,b) => {
+        const dateA = new Date();
+        const dateB = new Date();
+        return (dateA - dateB) * sortOrder;
+    })
 }
